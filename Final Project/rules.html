@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+<!-- 
+
+	Author: Brian Huang
+	Date: 2/21/23
+	Assignment: 
+-->
+
+
+<head>
+
+   <title>The Rules of Go</title>
+   <meta Charset="utf-8">
+
+</head>
+
+<body>
+    <header>
+        <br>
+        <h1>How to Play Go</h1>
+        <br>
+        </header>
+    <nav>
+        <a href = "./index.html">Home</a> <a href="./ranking.html">Rankings</a> <a href="./rules.html">Rules</a>
+    </nav>
+    <main>
+        
+        <h2>Introduction</h2>
+        <p>Go is a board game with relatively simple rules. Yet, the possible variations are endless. 
+            The game is usually played by 2 players on a 19x19 board. One player plays using black stones, while the other plays with white stones. 
+        The player with black stones goes first by placing a stone on any intersection on the board. The player with white stones then places a white 
+        stone on any of the unoccupied intersections. The players continue to place one stone at a time until they both "pass" their turn by saying pass.
+        <h2>Capturing</h2>
+        <p>
+        A player can capture their opponent's stone by surrounding all adjacent points around them (diagonal points do not count). The captured stones are 
+        removed from the board and kept by the player who captured them. At the end of the game all captured stones are subtracted from their color.
+        <br>
+        Example: 
+        <br>
+        Black has 100 points
+        <br>
+        White has 10 captured black stones
+        <br>
+        Black effectively has 90 points.
+        </p>
+        <div>
+            <img src="images/capture-example-2.png" alt="before capture">
+            <img src="images/capture-example-1.png" alt="after capture">
+            <p class="caption">White only has one adjacent free point. After Black places a stone on the final adjacent point, the white stone is removed from the game.</p>
+        </div>
+        <h2>
+            Counting
+        </h2>
+        <p>
+            There are many different ways to count. Most people use Japanese counting. The following will show you how to score the game in the Japanese style.
+            A game can only be counted when every point on the board is either filled up or completely surrounded by one color.
+            After this, each player counts the number of intersections that they have completely encircled. Each intersection counts as one point. Afterwards subtract the number of captured stones your opponent has taken.
+            Lastly subtract/add komi. Whoever has the highest score wins.
+        </p>
+        <h3>Komi</h3>
+        <p>In order to eliminate the possibilites of ties and to compensate White for playing second, many games are played with komi. Common Komis include: -5.5,+0.5,+5.5,+6.5,+7.5
+            <br>
+            Positive Komis are added to White's score, negative Komis are subtracted from White's score. This is why the end result of the example game below has a .5 at the end.
+        </p>
+        <img src="images/examplegamecomplete.png" alt="finished game" width = 25%>
+        <p class="caption">An example of a finished game where black wins by 36.5 points</p>
+    </main>
+    <footer> 
+        <a href="mailto:huang.brian@student.ccm.edu">Email</a>
+    </footer>
+</body>
+
+
+</html>

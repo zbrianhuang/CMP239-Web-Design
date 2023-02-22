@@ -1,0 +1,54 @@
+/*
+	Author: Brian Huang
+	Date: 2/32/23
+	Assignment: Chapter 5 Yoga Case Study
+*/
+html{
+    background-color: #F5F5F5;
+    color: #40407A;
+}
+header{
+    background-color:#80CBC4;
+}
+footer{
+    background-color:#80CBC4;
+}
+body{
+    font-family:Verdana, Arial, sans-serif;
+}
+header{
+    background-image: url("lilyheader.jpg");
+    background-position: right;
+    background-repeat:no-repeat;
+}
+nav{
+    text-align:center;
+    font-weight:bold;
+}
+nav a{
+    text-decoration:none;
+}
+h1{
+    line-height: 400%;
+    text-indent:1em;
+
+}
+footer{
+    font-size:small;
+    font-style:italic;
+    text-align:center;
+}
+li{
+    font-size:90%;
+}
+dd{
+    font-size:90%;
+}
+/*The body element selector. Add a declaration that configures Verdana, Arial, or sans-serif font typeface.
+2.The header element selector. Add declarations to configure lilyheader.jpg as a background image that displays on the right without repeating.
+3.The nav element selector. Code styles to configure centered, bold text.
+4.The nav a element selector. Code styles to eliminate the display of the underline for hyperlinks (hint: use the nav a descendant selector with text-decoration: none;).
+5.The h1 element selector. Code styles to display 400% line height and 1em text-indent.
+6.The footer selector. Add declarations to configure small, italic, and centered text.
+7.The li element selector and dd element selector. Code styles to configure 90% font size
+*/

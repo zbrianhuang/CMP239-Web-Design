@@ -1,0 +1,21 @@
+body{
+    background-color: #f7cac9;
+    font-family:Verdana, Arial, sans-serif;
+    color:#000000;
+}
+nav{
+    font-weight:bold;
+}
+nav a{
+    color:#000000;
+    text-decoration: none;
+}
+header{
+    background-image: url("images/go-background.png");
+    background-position: right;
+    background-repeat:no-repeat;
+}
+.caption{
+    
+    font-size:small;
+}
