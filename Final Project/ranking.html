@@ -6,9 +6,10 @@
 <!-- 
 
 	Author: Brian Huang
-	Date: 2/21/23
+	Date: 3/21/23
 	Assignment: Final Project
 -->
+
 
 
 <head>
@@ -24,11 +25,33 @@
         <h1>How to Play Go</h1>
         <br>
         </header>
-    <nav>
-        <a href = "./index.html">Home</a> <a href="./ranking.html">Rankings</a> <a href="./rules.html">Rules</a>
-    </nav>
+        <nav>
+            <ul>
+                <li>
+                    <a href = "./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./ranking.html">Rankings</a>
+                </li>
+                <li>
+                    <a href="./rules.html" id="rules_dropdown">Rules</a>
+                </li>
+                <li>
+                    <a href="./history.html">History</a>
+                </li>
+                <li>
+                    <a href="./glossary.html">Glossary</a>
+                    <li>
+                        <a href="./resources.html">External Resources</a>
+                    </li>
+                </li>
+            
+            </ul>
+        </nav>
     
     <main>
+        <div id = "wrapper">
+        <div class = "article">
         <h2>The Ranking System</h2>
         <p>Go has a very unique ranking system. Unlike Chess and the FIDE elo system, Go has a rather arbitrary way of comparing the skills of other players.
             All ranks start with a number and a sort of suffix after it. Amatuer player ranks have a "kyu" after the ranks, more advanced players have a "dan"
@@ -36,7 +59,8 @@
             earned by demonstrating profiency in beating similarly ranked players, and being able to beat higher level players with limited handicaps. Professional ranks and 
             promotions are earned by winning tournaments.
         </p>
-
+    </div>
+    <div class = "article">
         <h2>Example Progression</h2>
         <p>A new player would start at 30kyu. After a few months of practice they would be promoted to 9k. This is known as Single Digit Kyu (SDK), and many people
             mark this rank as the difference between beginner and intermediate players. After hundreds upon hundreds of hours of playing and studying theory, a player should be able to attain 1 dan. Depending on the country the player is from,
@@ -49,7 +73,8 @@
             <br>
             "Go Tournament" by Johl Augustin is licensed under CC BY-SA 2.0.
            </p>
-        
+        </div>
+        </div>
     </main>
 
     <footer>

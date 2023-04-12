@@ -1,0 +1,221 @@
+/*
+Author: Brian Huang
+Date: 4/11/23
+Assignment: Chapter 10 Yoga Case Study
+*/
+#mathero{
+    height:300px;
+    background-image:url(yogamat.jpg);
+    background-repeat: no-repeat;
+    background-color:100% ;
+ 
+    display: none;
+
+}
+#loungehero{
+    height:300px;
+    background-image:url(yogalounge.jpg);
+    background-repeat: no-repeat;
+    background-color:100% ;
+    
+    display: none;
+
+}
+
+html{
+    background-color: #F5F5F5;
+    color:#40407A;
+}
+header{
+    margin-top: 50px;
+    background-color:#80CBC4;
+    font-size: 90%;
+    min-height: 200px;
+    background-image: url("sunrise.jpg");
+    background-repeat: no-repeat;
+    background-color: #40407A;
+    background-color: 100% ;
+    color:#F5F5F5;
+
+}
+footer{
+    font-size:small;
+    font-style:italic;
+    text-align:center;
+    clear: right;
+}
+body{
+    background-color:#40407A;
+    margin:0;
+    font-family:Verdana, Arial, sans-serif;
+}
+h2{
+    margin:0;
+}
+nav{
+    text-align:right;
+    background-color: white;
+    margin:0;
+    padding-top:0.5em;
+    padding-bottom:1em;
+    padding-right:0;
+    height: auto;
+    position: relative;
+}
+nav a{
+    text-decoration:none;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-right: 2em;
+    font-size: 1.2em;
+}
+
+
+nav li{
+    display: inline;
+    padding-left: 2em;
+    width: 30%;
+}
+nav a:link {
+    color: #3F2860;
+}
+nav a:visited {
+    color: #497777;
+}
+nav a:hover {
+    color: #A26100;
+}
+header:link{
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+header:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#flow { display: block; }
+header:hover {
+    color: #EDF5F5;
+}
+.home{
+    height:20vh;
+    padding-top: 2em;
+    padding-left:10%;
+    position: relative;
+}
+.content{
+    height:20vh;
+    padding-top:2em;
+    padding-left:10%;
+}
+#wrapper{
+    margin-left: auto;
+    margin-right:auto;
+    background-color: #F5F5F5;
+    padding:2em;
+}
+section {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+table {
+    border: 1px solid #40407A;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+    min-width: 400px;
+    width: 100%;
+  }
+  
+  
+td, th {
+    border: 1px solid #40407A;
+    padding: 0.5em;
+  }
+  
+tr:nth-of-type(even) {
+    background-color: #D7E8E9;
+  }
+caption {
+    margin: 1em 0;
+    font-weight: bold;
+    font-size: 120%;
+  }
+
+
+@media screen and (min-width: 600px) {
+    nav ul {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+    }
+    nav li{
+        width: 7em;
+    }
+    section {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    
+	
+    #flow {
+        display: flex;
+        flex-direction: row;
+    }
+    #mathero{
+        
+        
+        display: block;
+           padding-bottom: 1em;
+    }
+    #loungehero{
+        
+        
+        display: block;
+           
+        padding-bottom: 1em;
+    }
+}
+@media screen and (min-width: 1024px) {
+    header{
+        font-size: 120%;
+    }
+    nav{
+        font-weight: bold;
+    }
+    .home{
+        height: 50vh;
+        padding-top: 5em;
+        padding-left:8em;
+    }
+    #wrapper{
+        margin:auto;
+        width: 80%;
+    }
+    
+}
+form { display: flex; 
+    flex-flow: column nowrap; 
+}   
+  
+  input, datalist, textarea {
+    margin-bottom: 0.5em;
+}
+  @media (min-width: 40em) {
+    form {
+      width: 60%;
+      max-width: 40em;
+      display: grid;
+      grid-template-columns: 9em 1fr;
+      grid-gap: 1em;
+      grid-auto-rows: auto;
+    }
+    
+    input[type="submit"] {
+      grid-column: 2;
+      width: 9em;
+    }
+}

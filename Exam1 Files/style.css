@@ -1,3 +1,8 @@
+/*
+Author: Brian Huang
+Date: 3/6/23
+Assignment: Exam 1 Practical
+*/
 body{
     font-family:Arial, Verdana, sans-serif;
     background-color: #1999B7;
@@ -19,6 +24,9 @@ nav{
 }
 nav a{
     text-decoration: none;
+    padding:10px;
+}
+main{
     padding:10px;
 }
 footer{

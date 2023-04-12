@@ -1,0 +1,152 @@
+/*
+	Author: Brian Huang
+	Date: 3/21/23
+	Assignment: Chapter 7 Yoga Case Study
+*/
+* { box-sizing: border-box; }
+html{
+    background-color: #F5F5F5;
+    color:#40407A;
+}
+header{
+    margin-top: 50px;
+    background-color:#80CBC4;
+}
+footer{
+    font-size:small;
+    font-style:italic;
+    text-align:center;
+}
+body{
+    background-color:#40407A;
+    max-width:1600px;
+    min-width: 900px;
+    margin:0;
+    
+    font-family:Verdana, Arial, sans-serif;
+}
+h2{
+    margin:0;
+}
+header{
+    background-image: url("sunrise.jpg");
+    background-repeat: no-repeat;
+    background-color: #40407A;
+    background-color: 100% ;
+    color:#F5F5F5;
+    /*
+    
+    background-position: right;
+    background-repeat:no-repeat;
+
+    */
+}
+nav{
+    text-align:right;
+    background-color: white;
+    margin:0;
+    padding-top:0.5em;
+    padding-bottom:1em;
+    padding-right:1em;
+
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 9999;
+    width:100%;
+    height:50px;
+}
+nav a{
+    text-decoration:none;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-right: 2em;
+    font-size: 1.2em;
+}
+nav li{
+    display: inline;
+    padding-left: 2em;
+}  
+nav a:link {
+    color: #3F2860;
+}
+nav a:visited {
+    color: #497777;
+}
+nav a:hover {
+    color: #A26100;
+}
+
+header:link{
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+header:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+header:hover {
+    color: #EDF5F5;
+}
+footer {
+    clear: right;
+}
+.onethird {
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.onehalf {
+    float: left;
+    width: 50%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+li{
+    font-size:90%;
+    
+}
+dd{
+    font-size:90%;
+}
+#wrapper{
+    margin-left: auto;
+    margin-right:auto;
+    width: 80%;
+    background-color: #F5F5F5;
+    padding:2em;
+}
+.home{
+    height:50vh;
+    padding-top: 6em;
+    padding-left:8em;
+    font-size:120%;
+    min-height: 300px;
+}
+.content{
+    height:250px;
+    padding-top:2em;
+    padding-left:8em;
+    padding-bottom:2em;
+}
+#mathero{
+    height:300px;
+    background-image:url(yogamat.jpg);
+    background-repeat: no-repeat;
+    background-color:100% ;
+    clear: both;
+}
+#loungehero{
+    height:300px;
+    background-image:url(yogalounge.jpg);
+    background-repeat: no-repeat;
+    background-color:100% ;
+    clear: both; 
+}
